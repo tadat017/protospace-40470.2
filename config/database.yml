@@ -59,7 +59,7 @@ test:
 production:
   <<: *default
   adapter: postgresql
-   url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['DATABASE_URL'] %>
   database: protospace_40470_2_production
   username: protospace_40470_2
   password: <%= ENV["PROTOSPACE_40470_2_DATABASE_PASSWORD"] %>
