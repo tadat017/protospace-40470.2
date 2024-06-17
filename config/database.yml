@@ -55,9 +55,8 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
   adapter: postgresql
   url: <%= ENV['DATABASE_URL'] %>
   database: protospace_40470_2_production
   username: protospace_40470_2
-  password: <%= ENV["PROTOSPACE_40470_2_DATABASE_PASSWORD"] %>
+  password: <%= ENV["PROTOSPACE_40470_2_DATABASE_PASSWORD"] %
