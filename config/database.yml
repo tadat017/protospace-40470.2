@@ -7,7 +7,7 @@ development:
   adapter: mysql2
   username: root
   password:
-  host: localhost
+  host: localhost2
   database: protospace_40470_2_development
 
 test:
@@ -15,7 +15,7 @@ test:
   adapter: mysql2
   username: root
   password:
-  host: localhost
+  host: localhost2
   database: protospace_40470_2_test
 
 production:
